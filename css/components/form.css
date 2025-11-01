@@ -1,0 +1,33 @@
+<style> 
+.form-section { padding: 8px 0 0; }
+
+label { font-weight: 700; }
+.form-control {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #DAE7EE;
+  background: #fff;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.form-control:focus {
+  border-color: #1E90FF;
+  box-shadow: 0 0 0 4px rgba(30,144,255,0.15);
+}
+
+/* Typeform iframe wrapper (nice rounded card) */
+.tf-embed {
+  background: #FFFFFF;
+  border: 1px solid #E5EEF3;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+.tf-embed iframe {
+  display: block;
+  width: 100%;
+  height: min(80vh, 720px);
+  border: 0;
+}
+<style>
